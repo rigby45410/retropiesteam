@@ -284,7 +284,7 @@ case $NUM in
 			echo -e "Removing Script"
 			rm /home/pi/moonlight.sh
 		fi
-		wget https://github.com/rigby45410/retropiesteam/new/master/moonlight.sh --no-check
+		wget https://github.com/rigby45410/retropiesteam/blob/master/moonlight.sh --no-check
 		chown pi:pi /home/pi/moonlight.sh
 		chmod +x moonlight.sh
 		sudo ./moonlight.sh
